@@ -45,7 +45,7 @@
                         document.write(new Date().getFullYear());
                     </script>
                 </span>
-                <a href="/" target="_blank" class="fw-medium text-white text-white">Ayasya Tech
+                <a href="/" class="fw-medium text-white text-white">Ayasya Tech
                     Indonesia</a>
             </div>
             <div>
