@@ -27,7 +27,7 @@
                         <a href="#landingFeatures" class="btn btn-primary btn-lg">Lihat Selengkapnya</a>
                     </div>
                 </div>
-                <div id="heroDashboardAnimation" class="hero-animation-img">
+                {{-- <div id="heroDashboardAnimation" class="hero-animation-img">
                     <a href="../vertical-menu-template/app-ecommerce-dashboard.html" target="_blank">
                         <div id="heroAnimationImg" class="position-relative hero-dashboard-img">
                             <img src="{{ asset('assets/img/front-pages/landing-page/hero-dashboard-light.png') }}"
@@ -39,10 +39,10 @@
                                 data-app-dark-img="front-pages/landing-page/hero-elements-dark.png" />
                         </div>
                     </a>
-                </div>
+                </div> --}}
             </div>
         </div>
-        <div class="landing-hero-blank"></div>
+        {{-- <div class="landing-hero-blank"></div> --}}
     </section>
     <!-- Hero: End -->
 
@@ -401,16 +401,16 @@
             data-app-light-img="front-pages/backgrounds/cta-bg-light.png"
             data-app-dark-img="front-pages/backgrounds/cta-bg-dark.png" />
         <div class="container">
-            <div class="row align-items-center gy-12">
+            <div class="row align-items-center gy-12 py-lg-12">
                 <div class="col-lg-6 text-sm-center text-lg-start text-start">
                     <h3 class="cta-title text-primary fw-bold mb-0">Yuk diskusi dengan kami</h3>
                     <h5 class="text-body mb-8">Jika mempunyai pertanyaan mengenai digital silahkan hubungi kami!</h5>
                     <a href="#landingContact" class="btn btn-lg btn-primary">Konsultasi Sekarang!</a>
                 </div>
-                <div class="col-lg-6 pt-lg-12 text-lg-end text-center">
+                {{-- <div class="col-lg-6 pt-lg-12 text-lg-end text-center">
                     <img src="{{ asset('assets/img/front-pages/landing-page/cta-dashboard.png') }}"
                         class="img-fluid mt-lg-4" />
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
@@ -494,7 +494,8 @@
                                         <textarea id="contact-form-message" class="form-control" rows="7" placeholder="Tulis Pesan Disini"></textarea>
                                     </div>
                                     <div class="col-12">
-                                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                                        <button type="submit" class="btn btn-primary disabled">Kirim Pesan</button>
+                                        <span class="text-danger">Maintenance</span>
                                     </div>
                                 </div>
                             </form>
